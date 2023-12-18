@@ -26,6 +26,22 @@ const patientsSchema = mongoose.schema(
             type: String,
             required: [true, "Please enter patient name"]
         },
+
+        EmergencyName : {
+            type: String,
+            required: [true, "Please enter patient Emergency Name "]
+        },
+
+        patientContact : {
+            type: String,
+            required: [true, "Please enter patient Contact"]
+        },
+
+        relationshipWithPatient : {
+            type: String,
+            required: [true, "Please enter your relationship with patient "]
+        },
+
  
 
     }
